@@ -1,0 +1,58 @@
+.hero {
+    padding: 1rem 2rem;
+    margin-top: 5rem;
+    /* background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/images/hero-bg.jpg') center/cover no-repeat; */
+}
+
+.hero__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    /* border: 5px solid hsla(213, 51%, 55%, 0.75); */
+    /* border-radius: 10px; */
+    /* background-color: hsla(210, 40%, 96%, 0.95); */
+}
+
+.hero__title {
+    font-size: var(--size-4xl);
+    font-family: "Dancing Script", serif;
+}
+
+.hero__description {
+    font-size: var(--size-lg);
+    color: var(--clr-slate800);
+}
+
+.hero__display {
+
+}
+
+.hero__image {
+    border-radius: 10px;
+}
+
+.hero__button {
+    transition: transform 0.3s;
+}
+
+.hero__button:hover {
+    transform: scale(110%);
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}

@@ -1,0 +1,65 @@
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: var(--clr-light);
+    z-index: 1;
+}
+
+.nav__logo {
+    font-family: "Dancing Script", serif;
+    font-size: var(--size-4xl);
+}
+
+.nav__logo-link {
+    text-decoration: none;
+    color: var(--clr-blue);
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav__item {
+
+}
+
+.nav__link {
+    text-decoration: none;
+    color: var(--clr-dark);
+    transition: color 0.3s;
+}
+
+.nav__link:hover {
+    color: var(--clr-blue);
+}
+
+.active {
+    color: var(--clr-blue);
+}
+
+.nav__cta {
+    transition: transform 0.3s;
+}
+
+.nav__cta:hover {
+    transform: scale(110%);
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}

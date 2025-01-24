@@ -1,0 +1,57 @@
+.featured {
+    padding: 1rem 2rem;
+    /* background-color: var(--clr-blue); */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/hero-bg.jpg') center/cover no-repeat;
+}
+
+.featured__title {
+    text-align: center;
+    font-family: "Dancing Script", serif;
+    font-size: var(--size-2xl);
+    color: var(--clr-light);
+}
+
+.featured__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+}
+
+.featured__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid hsla(210, 40%, 96%, 0.75);
+    border-radius: 10px;
+}
+
+.featured__image {
+    border-radius: 10px 10px 0 0;
+}
+
+.featured__card-content {
+    padding: 1rem;
+    background-color: var(--clr-light);
+    border-radius: 0 0 10px 10px;
+}
+
+.featured__card-title {
+    font-size: var(--size-xl);
+    margin-bottom: 0.5rem;
+}
+
+.featured__card-description {
+    color: var(--clr-slate800);
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}

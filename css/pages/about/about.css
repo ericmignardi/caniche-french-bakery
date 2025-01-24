@@ -1,0 +1,136 @@
+.about {
+    text-align: center;
+    padding: 2rem 2rem;
+    margin-top: 5rem;
+}
+
+.about__title {
+    font-family: "Dancing Script", serif;
+    font-size: var(--size-2xl);
+    margin-bottom: 1rem;
+}
+
+.about__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.about__description-wrapper {
+
+}
+
+.about__description {
+    padding: 1rem;
+    color: var(--clr-slate800);
+}
+
+.about__image {
+
+}
+
+.about__item {
+    color: var(--clr-blue);
+}
+
+.about__item:nth-child(2), .about__item:nth-child(4), .about__item:nth-child(6) {
+    color: var(--clr-dark);
+}
+
+.about__social {
+    /* margin-bottom: 4rem; */
+}
+
+.about__social-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about__social-item {
+    transition: transform 0.3s;
+}
+
+.about__social-link {
+
+}
+
+.about__social-item:hover {
+    transform: rotate(5deg);
+}
+
+.fa-facebook-f {
+    font-size: var(--size-2xl);
+    color: var(--clr-blue);
+}
+
+.fa-twitter {
+    font-size: var(--size-2xl);
+    color: var(--clr-blue);
+}
+
+.fa-instagram {
+    font-size: var(--size-2xl);
+    color: var(--clr-blue);
+}
+
+.about__list {
+    list-style: none;
+}
+
+.about__items {
+
+}
+
+.about__display {
+
+}
+
+.about__image {
+    border-radius: 10px;
+}
+
+.about__hours-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.about__hours-title {
+    margin-bottom: 1rem;
+}
+
+.about__hours-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.about__hours-list-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__span {
+    color: var(--clr-blue);
+}
+
+
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}

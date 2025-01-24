@@ -1,0 +1,45 @@
+.location {
+    padding: 1rem 2rem;
+}   
+
+.location__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.location__display {
+
+}
+
+.location__image {
+    border-radius: 10px;
+}
+
+.location__content {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.location__title {
+    font-family: "Dancing Script", serif;
+    font-size: var(--size-2xl);
+    margin-bottom: 1rem;
+}
+
+.location__description {
+    color: var(--clr-slate800);
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
