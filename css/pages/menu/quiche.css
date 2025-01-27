@@ -1,0 +1,56 @@
+.quiche {
+    padding: 1rem 2rem;
+}
+
+.quiche__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.quiche__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem 2rem;
+}
+
+.quiche__title {
+    font-family: "Dancing Script", serif;
+    font-size: var(--size-2xl);
+}
+
+.quiche__description {
+    color: var(--clr-slate600);
+}
+
+.quiche__list {
+    list-style: none;
+}
+
+.quiche__item {
+    color: var(--clr-blue);
+}
+
+.quiche__display {
+    padding: 1rem 2rem;
+}
+
+.quiche__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}

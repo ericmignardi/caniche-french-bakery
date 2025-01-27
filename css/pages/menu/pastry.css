@@ -1,0 +1,46 @@
+.pastry {
+    padding: 1rem 2rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../images/hero-bg2.jpg") center/cover no-repeat;
+}
+
+.pastry__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: var(--clr-light);
+}
+
+.pastry__content {
+    text-align: center;
+}
+
+.pastry__title {
+    font-family: "Dancing Script", serif;
+    font-size: var(--size-2xl);
+    margin-bottom: 1rem;
+}
+
+.pastry__description {}
+
+.pastry__list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.pastry__item {
+    justify-self: center;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}

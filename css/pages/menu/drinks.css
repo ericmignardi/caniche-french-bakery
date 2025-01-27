@@ -1,0 +1,43 @@
+.drinks {
+    padding: 1rem 2rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../images/drinks.jpg") center/cover no-repeat;
+}
+
+.drinks__container {}
+
+.drinks__content {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: var(--clr-light);
+    text-align: center;
+}
+
+.drinks__title {
+    font-size: var(--size-2xl);
+    font-family: "Dancing Script", serif;
+}
+
+.drinks__description {
+
+}
+
+.drinks__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.drinks__item {}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}

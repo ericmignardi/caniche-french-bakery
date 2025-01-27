@@ -1,0 +1,54 @@
+.packaged {
+    padding: 1rem 2rem;
+}
+
+.packaged__container {
+
+}
+
+.packaged__content {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+}
+
+.packaged__title {
+    font-family: "Dancing Script", serif;
+    font-size: var(--size-2xl);
+}
+
+.packaged__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    aspect-ratio: 16/9;
+}
+
+.packaged__description {
+    color: var(--clr-slate600);
+}
+
+.packaged__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.packaged__item {
+    color: var(--clr-blue);
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
